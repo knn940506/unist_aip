@@ -1,0 +1,6 @@
+(define (problem fromProblemBuilder_problem)
+	(:domain fromProblemBuilder)
+	(:objects S1 S2 S3 S4 H1 H2 J1 J2 J3 Food1 Food2 Food3 Food4 HotSuace Juice C1 C2 C3 C4)
+	(:init (CUSTOMER C1) (CUSTOMER C2) (CUSTOMER C3) (CUSTOMER C4) (STORE S1) (STORE S2) (STORE S3) (STORE S4) (STORE H1) (STORE H2) (STORE J1) (STORE J2) (STORE J3) (FOOD Food1) (FOOD Food2) (FOOD Food3) (FOOD Food4) (FOOD HotSauce) (FOOD HotSauce) (FOOD Juice) (FOOD Juice) (FOOD Juice) (sell S1 Food1) (sell S2 Food2) (sell S3 Food3) (sell S4 Food4) (sell H1 HotSauce) (sell H2 HotSauce) (sell J1 Juice) (sell J2 Juice) (sell J3 Juice))
+	(:goal (and (delivered C1 S4 1) (delivered C1 Juice 2) (delivered C2 S2 1) (delivered C2 Sauce 2) (delivered C2 Juice 2) (delivered C3 S3 2) (delivered C4 S1 2) (delivered C4 Sauce 2)))
+)

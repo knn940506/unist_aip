@@ -1,0 +1,7 @@
+setup.py
+aip.egg-info/PKG-INFO
+aip.egg-info/SOURCES.txt
+aip.egg-info/dependency_links.txt
+aip.egg-info/not-zip-safe
+aip.egg-info/requires.txt
+aip.egg-info/top_level.txt

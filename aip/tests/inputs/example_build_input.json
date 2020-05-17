@@ -1,0 +1,58 @@
+{
+  "req_id": "fromPddlBuilder",
+  "requests": {
+    "C1": {
+      "location": [ 123, 123 ],
+      "orders": [
+        {
+          "menu": "S4",
+          "qty": 1
+        },
+        {
+          "menu": "Juice",
+          "qty": 2
+        }
+      ]
+    },
+    "C2": {
+      "location": [ 150, 150 ],
+      "orders": [
+        {
+          "menu": "S2",
+          "qty": 1
+        },
+        {
+          "menu": "Sauce",
+          "qty": 2
+        },
+        {
+          "menu": "Juice",
+          "qty": 2
+        }
+      ]
+    },
+    "C3": {
+      "location": [ 200, 200 ],
+      "orders": [
+        {
+          "menu": "S3",
+          "qty": 2
+        }
+      ]
+    },
+    "C4": {
+      "location": [ 175, 95 ],
+      "orders": [
+        {
+          "menu": "S1",
+          "qty": 2
+        },
+        {
+          "menu": "Sauce",
+          "qty": 2
+        }
+      ]
+    }
+  }
+}
+
