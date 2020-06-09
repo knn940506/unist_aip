@@ -34,6 +34,7 @@ def request_solve(domain_path, problem_path, detail=False):
     res = requests.post(WEB_SOLVER_BASE, verify=False, json=data).json()
 
     if res['status'] != 'ok':
+        pprint(res)
         raise RuntimeError('Plan fail')
 
     if detail:
@@ -61,6 +62,9 @@ if __name__ == '__main__':
 
     dpath = r'C:\Users\kjw940506\source\repos\unist_aip\aip\solver\example\p13-domain.pddl'
     ppath = r'C:\Users\kjw940506\source\repos\unist_aip\aip\solver\example\p13.pddl'
+
+    dpath = r'C:\Users\kjw940506\source\repos\unist_aip\aip\solver\example\domain.pddl'
+    ppath = r'C:\Users\kjw940506\source\repos\unist_aip\aip\solver\example\problem.pddl'
     save_path = ppath.replace('.pddl', '-result.pddl')
 
     solve_problem(dpath, ppath, save_path)
